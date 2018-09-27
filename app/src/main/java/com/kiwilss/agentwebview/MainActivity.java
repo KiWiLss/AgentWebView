@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         LinearLayout llOuter = findViewById(R.id.ll_main_outer);
-        Log.e("MMM", "onCreate: ");
+
+
 
         mAgentWeb = AgentWeb.with(this)
                 .setAgentWebParent((LinearLayout) llOuter, new LinearLayout.LayoutParams(-1, -1))
